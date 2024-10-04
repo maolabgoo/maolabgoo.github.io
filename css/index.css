@@ -502,7 +502,7 @@ blockquote p {
     margin-right: 2rem;
   }
 }
-@media (min-width: 400px) {
+@media (min-width: 200px) {
   .page {
     width: 82.5%;
     float: right;
@@ -896,12 +896,12 @@ blockquote p {
     background-color: rgba(122,130,136,0.4);
   }
 }
-@media (min-width: 400px) and (min-width: 66.67em) {
+@media (min-width: 200px) and (min-width: 66.67em) {
   .side-card {
     padding-right: 0;
   }
 }
-@media (min-width: 400px) and (min-width: 1300px) {
+@media (min-width: 200px) and (min-width: 1300px) {
   .side-card {
     width: 15.25424%;
     min-width: 165px;
@@ -976,12 +976,12 @@ blockquote p {
     margin: 0;
   }
 }
-@media (min-width: 400px) and (min-width: 66.67em) {
+@media (min-width: 200px) and (min-width: 66.67em) {
   .footer_wrap {
     max-width: 1200px;
   }
 }
-@media (min-width: 400px) and (min-width: 34em) {
+@media (min-width: 200px) and (min-width: 34em) {
   .footer_wrap {
     padding: 0 1em 2em;
   }

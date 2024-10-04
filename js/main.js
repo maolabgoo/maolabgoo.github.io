@@ -1,7 +1,7 @@
 $(function () {
     // resize window
     $(window).resize(function () {
-        if ($(window).width() < 1300) {
+        if ($(window).width() < 1300 ) {
             $(".page").css({"width": "100%", "float": "none"})
         } else {
             $(".page").removeAttr("style")

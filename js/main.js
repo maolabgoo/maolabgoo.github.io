@@ -1,8 +1,8 @@
 $(function () {
     // resize window
     $(window).resize(function () {
-        if ($(window).width() < 1280 && $(window).width()>540) {
-            $(".page").css({"width": $(window).width() - $(".side-card").width() - 90, "float": "left"})
+        if ($(window).width() < 1300) {
+            $(".page").css({"width": "100%", "float": "none"})
         } else {
             $(".page").removeAttr("style")
         }
